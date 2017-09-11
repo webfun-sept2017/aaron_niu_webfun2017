@@ -1,0 +1,57 @@
+/*CSS reset settings here*/
+#wrapper{
+ width: 1000px;
+ height: 1000px;;
+ background-color:tan;
+ padding: 20px;
+ overflow: hidden;
+}
+#header{
+ height: 200px;
+ overflow: hidden;
+ padding-left:15%;
+ padding-right:15%;
+}
+#header .left{
+height: 100px;
+width: 200px;
+float:left;
+vertical-align: bottom;
+}
+#header h1{
+float: left;
+text-align: bottom;
+}
+#header .right{
+height: 100px;
+width: 200px;
+float:left;
+}
+#main_content{
+ height: 760px;
+ padding:20px 10px 20px 10px;
+ overflow: hidden;
+}
+.subcontents_blue{
+background-color:blue;
+ height: 165px;
+ width: 165px;
+ float:left;
+ margin:10px;
+ border-style:solid;
+ border-width:5px;
+}
+.subcontents_red{
+background-color:red;
+height: 165px;
+width: 165px;
+float:left;
+margin:10px;
+border-style:solid;
+border-width:5px;
+}
+#main_content img{
+margin:15px;
+width:130px;
+height:130px;
+}
