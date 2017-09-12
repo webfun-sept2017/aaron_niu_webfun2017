@@ -1,0 +1,78 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.container{
+ width: 970px;
+ background-color:#12355b;
+ padding: 10px;
+ overflow: hidden;
+ height: auto;;
+}
+.header{
+ height: 75px;
+ border-radius:20px;
+ background-color:#d72638;
+ color:#bfd7ea;
+ margin: 0px 0px 20px;
+}
+.header h1{
+top:20px;
+left:20px;
+position: relative;
+}
+.nav{
+ height: 220px;
+ width: 210px;
+ border-radius:20px;
+ background-color:#087e8b;
+ color:aqua;
+ float: left;
+ padding:15px;
+}
+.nav ul{
+left: 30px;
+position: relative;
+color:lightsteelblue;
+}
+a{
+color:aqua;
+}
+.main{
+ height: 700px;
+ width: 680px;
+ border-radius:20px;
+ background-color:#0c1821;
+ color:#bfd7ea;
+ float:right;
+ padding:15px;
+ font-size: 9px;
+ overflow: auto;
+}
+.main h2{
+margin:10px 0px 10px 0px;
+}
+.main ul{
+top:10px;
+left: 30px;
+position: relative;  
+}
+.highlight{
+color:#7692ff;
+}
+.footer{
+ height: 50px;
+ width: 970px;
+ border-radius:20px;
+ background-color:#5c6672;
+ margin:20px 0px 0px 0px;
+ display:block;
+ float: left;
+}
+.footer p{
+color:lightsteelblue;
+top:15px;
+left:20px;
+position: relative;
+}
