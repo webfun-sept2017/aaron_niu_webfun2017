@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#container{
+    width:1450px;
+    height:760px;
+    display:block;
+    background:#eeeeee;
+}
+#container p{
+    display:block;
+}
+#container span{
+    color:#19419e;
+    font-weight: bold;
+}
+#top{
+    width:1375px;
+    height:542px;
+    display:block;
+    margin:0px 60px 40px 0px;
+}
+#left{
+    width:210px;
+    height: 535px;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:20px;
+    text-align:center;
+}
+#left_left{
+    width:60px;
+    height:532px;
+    display:inline-block;
+    vertical-align: top;
+}
+#left_left p{
+    margin-top:10px;
+    margin-bottom:45px;
+    color:red;
+}
+#left_middle{
+    width:60px;
+    display:inline-block;
+}
+.box{
+    width:60px;
+    height: 50px;
+    display:block;
+    padding-top:10px; 
+    color:red;
+}
+.box_blue{
+    width:60px;
+    height: 60px;
+    display:block;
+    margin-top:3px;
+    background:#689bff;
+    border:1px solid black;
+}
+#left_right{
+    width:60px;
+    display:inline-block;
+}
+.box_2{
+    width:60px;
+    height: 50px;
+    display:block;
+    margin-bottom:69px;
+    padding-top:10px; 
+    color:red;
+}
+#middle{
+    width:690px;
+    height: 535px;
+    display:inline-block;
+    vertical-align: top;
+    text-align:center;
+}
+.middle_column{
+    display:inline-block;
+}
+.box_3{
+    width:60px;
+    height: 50px;
+    display:block;
+    margin-bottom:207px;
+    padding-top:10px; 
+    color:red;
+}
+.box_red{
+    width:60px;
+    height: 60px;
+    display:block;
+    margin-top:3px;
+    background:#fd9a98;
+    border:1px solid black;
+}
+#right{
+    width:433px;
+    height:535px;
+    display:inline-block;
+    text-align:center;
+}
+.right_column{
+    display:inline-block;
+    vertical-align: top;
+}
+.box_yellow{
+    width:60px;
+    height: 60px;
+    display:block;
+    margin-top:3px;
+    background:#fecb00;
+    border:1px solid black;
+}
+#bottom{
+    width:1375px;
+    height: 145px;
+    display: block;
+    margin-bottom:20px;
+}
+#bottom_top, #bottom_bottom{
+    width:1210px;
+    height: 65px;
+    display:block;
+    margin-bottom:3px;
+}
+p#bottom_label {
+    display:inline-block;
+    color:red;
+    vertical-align: top;
+    margin:20px 65px 0px 60px;
+}
+p#bottom_label2 {
+    display:inline-block;
+    color:red;
+    vertical-align: top;
+    margin:20px 0px 0px 0px;
+}
+.box_green{
+    width:60px;
+    height: 60px;
+    display:inline-block;
+    margin:0px 1px 0px 0px;
+    text-align: center;
+    background:#1fca21;
+    border:1px solid black;
+}
