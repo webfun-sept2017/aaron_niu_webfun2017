@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset:UTF-8>
+    <title>Random Chance</title>
+        <script type="text/javascript">
+            console.log(document);
+            function slotMachine(coin) {
+				while (coin > 0) {
+					if (Math.floor(Math.random() * 100) === Math.floor(Math.random() * 100)){
+					  var winnings = Math.trunc(Math.floor(Math.random() * 50) + 51);
+					  coin += winnings;
+					  console.log("WINNER! You now have "+ coin +" quarters.");
+					}
+					else {
+						console.log("Fail. There is now "+ coin +" quarters left.");			    
+					}
+					coin--;
+				}
+			  console.log("There are " + coin + " quarters left!");
+			}
+			slotMachine(100);
+
+            
+        </script>
+</head>
+<body>
+</body>
+</html>
