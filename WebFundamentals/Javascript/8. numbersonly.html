@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset:UTF-8>
+    <title>Numbers Only</title>
+        <script type="text/javascript">
+            var oldArray=[1,"apple",-3,"orange",0.5];
+            var newArray=[];
+            numberOnly(oldArray);
+            function numberOnly(arr){
+                for(var i=0;i<+oldArray.length;i++){
+                    if (typeof oldArray[i]==='number'){
+                        newArray.push(arr[i]);
+                    }
+                }
+            }
+            console.log(newArray);
+    </script>
+</head>
+<body>
+</body>
+</html>
