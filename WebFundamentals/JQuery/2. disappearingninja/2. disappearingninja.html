@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset:UTF-8>
+        <title>Disappearing Ninja</title>
+        <style type="text/css">
+            #main{
+                width:450px;
+                height:250px;
+                display:block;
+            }
+            img {
+                width: 100px;
+                height:100px;
+                display:inline-block;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('img').click(function(){
+                $(this).hide();
+            });
+            $('input').click(function(){
+                $('img').show();
+            });
+        });
+        </script>    
+    </head>
+    <body>
+        <h1>Disappearing Ninja</h1>
+        <div id="main">
+            <img src="dojocat.jpg" alt="dojocat.jpg">
+            <img src="dojocat.jpg" alt="dojocat.jpg">
+            <img src="dojocat.jpg" alt="dojocat.jpg">
+            <img src="dojocat.jpg" alt="dojocat.jpg">
+            <img src="dojocat.jpg" alt="dojocat.jpg">
+            <img src="dojocat.jpg" alt="dojocat.jpg">
+            <img src="dojocat.jpg" alt="dojocat.jpg">
+            <img src="dojocat.jpg" alt="dojocat.jpg">
+        </div>
+        <input type="button" value="Restore">
+    </body>    
+</html>
