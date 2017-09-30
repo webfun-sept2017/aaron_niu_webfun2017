@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset:UTF-8>
+        <title>JQuery Functions</title>
+        <style type="text/css">
+            .selected{
+                color:blue;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#click').click(function(){
+                alert("you clicked");
+            });
+            $('#hide').click(function(){
+                $('#hide').hide();
+            });
+            $('#show').click(function(){
+                $('#hide').show();
+            });
+            /*$('#toggle').toggle(function(){
+                alert("you're starting to get the hang of JQuery!")},
+                function(){
+                alert("keep going!")
+            });*/
+            $('#slidedown').click(function(){
+                $('h1').slideDown("slow", function(){});
+            });
+            $('#slideup').click(function(){
+                $('h1').slideUp("slow", function(){});
+            });
+            $('#slidetoggle').click(function(){
+                $('h3').slideToggle("slow", function(){});
+            });
+            $('#fadein').click(function(){
+                $('h1').fadeIn("slow", function(){});
+            });
+            $('#fadeout').click(function(){
+                $('h1').fadeOut("slow", function(){});
+            });
+            $('#addclass').click(function(){
+                $("li").last().addclass("selected");
+            });
+            $('#before').click(function(){
+                $("#before").before("~~~~~~");
+            });
+            $('#after').click(function(){
+                $("#after").after("~~~~~~");
+            });
+            $('#append').click(function(){
+                $("li").append(" this is appending");
+            });
+            $('#html').click(function(){
+                $("#html").html("you'll become a pro!");
+            });
+            $('#attr').click(function(){
+                $("#attr").attr("title", "attribute function");
+            });
+            $('#val').click(function(){
+                $("input").val(function(){
+                    $("input").change("thanks");
+                });
+            });
+            $('#text').click(function(){
+                $("#text").text("it's changed");
+            });
+            $('#data').click(function(){
+                $("div").data("test");
+                $("span").text("not sure i really understand this");
+            });
+        });
+        </script>
+        
+    </head>
+    <body>
+        <h1>JQuery Functions</h1>
+        <h3>This is my first use of JQuery</h3>
+        <p>List of Common JQuery Functions:</p>
+        <ul>
+            <li id="click">.click</li>
+            <li id="hide">.hide</li>
+            <li id="show">.show</li>
+            <li id="toggle">.toggle</li>
+            <li id="slidedown">.slideDown</li>
+            <li id="slideup">.slideUp</li>
+            <li id="slidetoggle">.slideToggle</li>
+            <li id="fadein">.fadeIn</li>
+            <li id="fadeout">.fadeOut</li>
+            <li id="addclass">.addClass</li>
+            <li id="before">.before</li>
+            <li id="after">.after</li>
+            <li id="append">.append</li>
+            <li id="html">.html</li>
+            <li id="attr">.attr <input type="text"></li>
+            <li id="val">.val</li>
+            <li id="text">.text</li>
+            <li id="data">.data</li>
+            <div>
+                <li><span></span></li>
+            </div>
+        </ul>
+        
+    </body>    
+</html>
